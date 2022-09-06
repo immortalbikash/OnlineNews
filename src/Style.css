@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+  }
+
+nav{
+    height: 50px;
+    margin: 10px 0;
+    background-color: rgb(7, 7, 126);
+    padding: 10px 0 1px 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 25px;
+}
+
+nav a:hover{
+    background-color: red;
+    color: white;
+}
+
+footer{
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(7, 7, 75);
+    color: white;
+}
